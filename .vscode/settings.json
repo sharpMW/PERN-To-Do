@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/1fa122f3-248c-49e9-8c93-fbb72baa9ed7/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/freeslotstc",
+    "appService.deploySubpath": "."
+}
