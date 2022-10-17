@@ -15,7 +15,7 @@ const { Sequelize, DataTypes } = require('sequelize')
 const config = require('./config.js')[process.env.NODE_ENV || 'development']
 
 // const sequelize = new Sequelize(config.postgres.options)
-const sequelize = new Sequelize(config.postgresurl)
+const sequelize = new Sequelize(process.env.DATABASE_URL)
 
 sequelize
     .authenticate()
