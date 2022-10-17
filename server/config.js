@@ -10,5 +10,8 @@ module.exports = {
                 password: process.env.DB_PASSWORD
             }
         }
+    },
+    production: {
+        postgresurl: process.env.DATABASE_URL
     }
 }
